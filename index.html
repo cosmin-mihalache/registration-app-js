@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration App</title>
+
+    <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js" data-auto-a11y="true"></script>
+    <link rel="stylesheet" href="https://bootswatch.com/4/pulse/bootstrap.min.css">
+</head>
+
+<body style="background: radial-gradient(#FFDEE9, #B5FFFC);">
+    <div class="container mt-4">
+        <h1 class="display-4 text-center"><i class="fas fa-book-reader text-primary"></i>Registration<strong class="text-primary">App</strong>
+        </h1>
+        <form id="registration-form">
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" class="form-control">
+            </div>
+            <div class="form-group">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" class="form-control">
+             </div>
+             <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" class="form-control">
+             </div>
+             <div class="form-group">
+                    <label for="postalcode">Postal Code#</label>
+                    <input type="text" id="postalcode" class="form-control">
+            </div>
+            <input type="submit" value="Register Now" class="btn btn-primary btn-block">
+        </form>
+        <table class="table table-striped text-center mt-5">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Postal Code#</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="registration-list"></tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
