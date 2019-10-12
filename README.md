@@ -1,1 +1,1 @@
-# registration-app-js
+# registration-app-js-bootstrap
